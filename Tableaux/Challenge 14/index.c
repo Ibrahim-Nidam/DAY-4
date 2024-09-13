@@ -5,7 +5,7 @@ int main(){
     int somme,moyen;
 
     do{
-        printf("Entrez le Nombre de casse du tableaux : ");
+        printf("Entrez le Nombre de casses du tableaux : ");
         scanf(" %d",&nomTab);
     }while (nomTab <= 0);
 
