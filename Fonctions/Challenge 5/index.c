@@ -8,12 +8,15 @@ void factoriel(int nombre, int f){
         printf("%d! = %d",nombre,f);
 }
 
+void entrezDonne(int *nombre){
+    printf("Entrez un nombre : ");
+    scanf("%d",&*nombre);
+
+}
+
 int main(){
     int nombre,f=1;
-
-    printf("Entrez un nombre : ");
-    scanf("%d",&nombre);
-
+    entrezDonne(&nombre);
     factoriel(nombre,f);
     return 0;
 }

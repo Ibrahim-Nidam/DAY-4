@@ -11,10 +11,9 @@ void impair(int a){
 void pariteCheck(int a){
     if (a % 2 == 0) {
         return  pair(a);
-        }
-        else{
-            return impair(a);
-        }
+    }else{
+        return impair(a);
+    }
 
 }
 

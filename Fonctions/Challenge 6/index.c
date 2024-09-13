@@ -18,12 +18,14 @@ void fibonacci(int a,int b,int f,int next){
     }
 }
 
+void entrezDonne(int *f){
+    printf("Entrez un nombre : ");
+    scanf("%d", &*f);
+}
+
 int main(){
     int f, a = 0, b = 1, next;
-
-    printf("Entrez un nombre : ");
-    scanf("%d", &f);
-
+    entrezDonne(&f);
     fibonacci(a ,b ,f ,next);
     return 0;
 }
